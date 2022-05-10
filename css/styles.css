@@ -1,0 +1,80 @@
+
+/***MOBILE STYLES***/
+
+/*------------- General Styles -------------*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+
+/*--------Base Header + Footer Styles ---------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+header {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 3em;
+    margin: 50px 0 0 0;
+    color: indianred;
+    font-weight: 300;
+}
+
+
+/*------------- Mobile - Homepage -------------*/
+
+.create-button {
+  padding: 1em 3em;
+  border-radius: 50px;
+  margin-top: 2em;
+  color: #fff;
+  background: indianred;
+  font-size: 1em;
+  align-self: center;
+  outline: none;
+  border: 0;
+  cursor: help;
+}
+
+.create-button:hover {
+    outline: 0;
+    transform: scale(0.98);
+    background: brightness(0.3);
+    color: white;
+  }
+ 
+.date {
+    color: indianred;
+}
+
+
+
+/*** TABLET STYLES ***/
+@media only screen and (min-width: 768px) {
+
+    
+/*------------- General Styles -------------*/
+
+
+
+
+/*** DESKTOP STYLES ***/
+@media only screen and (min-width: 1200px) {
+
+        
+/*------------- General Styles -------------*/
